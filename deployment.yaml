@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: java-app
-          image: yeshwanth410/java-app:latest  # Update with your Docker Hub repo
+          image: IMAGE_PLACEHOLDER  # This will be replaced by sed in Jenkins
           ports:
             - containerPort: 8081  # Matches your Dockerfile
 
