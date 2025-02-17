@@ -17,6 +17,6 @@ public class Main {
 class WelcomeController {
     @GetMapping("/")
     public String home() {
-        return "Welcome to My Java App!";
+        return "Welcome to My Java App!hi this is edited";
     }
 }
